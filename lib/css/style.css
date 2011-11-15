@@ -1,0 +1,63 @@
+/* CSS Reset */
+* { margin:0; padding=0;}
+
+body {
+	background:#59d3fa url(/images/background.png) repeat-x 0 0;
+
+}
+
+#container {
+	width:1024px;
+	margin:0 auto;
+}
+
+#header {
+	height:114px;
+	width:960px;
+	margin:115px auto 0 auto;
+}
+
+#header h1 {
+    display:block;
+    float:left;
+    width:320px;
+    height:105px;
+    background:url(/images/btn_creative.jpg)  no-repeat 0 0;
+    text-indent:-10000px;
+  }
+  
+#header a {
+	display:block;
+	width:100%;
+	height:100%;
+}
+
+#header h1 a:hover{
+	background:url(/images/btn_creative.jpg) no-repeat 0px -105px;
+}
+
+#header ul {
+    display:block;
+    float:right;
+    width:640px;
+    height:105px;
+    background:url(/images/navigasi.jpg) no-repeat 0 0;
+    list-style:none;
+  }
+  
+#header ul li {
+    display:block;
+    float:left;
+    height:105px;
+    text-indent:-10000px;
+  }
+  
+ #home {
+    width:160px;
+  }
+  #aboutus {
+    width:137px;
+  }
+  #link {
+    width:129px;
+  }
